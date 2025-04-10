@@ -1,0 +1,22 @@
+{
+  "name": "are-you-dumb-backend",
+  "version": "1.0.0",
+  "description": "Backend for Are You Dumb quiz application",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@fastify/jwt": "^7.2.1",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.0",
+    "mongoose": "^7.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+} 
