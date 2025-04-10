@@ -4,9 +4,13 @@
   "description": "Backend for Are You Dumb quiz application",
   "main": "src/index.js",
   "type": "module",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "build": "echo 'No build step required'"
   },
   "dependencies": {
     "@fastify/cors": "^8.3.0",
@@ -14,9 +18,10 @@
     "bcrypt": "^5.1.0",
     "dotenv": "^16.3.1",
     "fastify": "^4.24.0",
+    "mongodb": "^6.15.0",
     "mongoose": "^7.5.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
   }
-} 
+}
