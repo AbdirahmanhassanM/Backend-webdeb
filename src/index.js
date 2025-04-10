@@ -12,7 +12,7 @@ const fastify = Fastify({
 
 // Register plugins
 await fastify.register(cors, {
-  origin: config.corsOrigin
+  origin: ['http://localhost:5174']
 });
 
 await fastify.register(jwt, {
