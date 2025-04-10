@@ -67,4 +67,9 @@ npm start
 
 ## Error Handling
 
-The API uses standard HTTP status codes and returns JSON responses with error messages when something goes wrong. 
+The API uses standard HTTP status codes and returns JSON responses with error messages when something goes wrong.
+
+## Deployment
+
+The application is deployed on Render. Access it via the following link:
+- [Render Deployment Link](https://backend-webdeb.onrender.com) 
